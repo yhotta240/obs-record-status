@@ -135,14 +135,11 @@ Pythonを使用する場合は，あらかじめPythonのインストールパ�
 
 https://qiita.com/natmark/items/66bf793253aa2d4b151d
 
-▼ Python/Lua スクリプト
-
+▼ Python/Lua スクリプト<br>
 https://docs.obsproject.com/scripting
 
-▼ イベントが発生したときに呼び出されるコールバック関数
-
+▼ イベントが発生したときに呼び出されるコールバック関数<br>
 https://docs.obsproject.com/reference-frontend-api#c.obs_frontend_add_event_callback
 
-▼ イベント一覧
-
+▼ イベント一覧<br>
 https://docs.obsproject.com/reference-frontend-api#c.obs_frontend_event
