@@ -23,8 +23,12 @@ OBSではLuaとPythonの2つのスクリプト言語がサポートされてい�
 どちらの言語もOBSのAPIを利用して同様の操作が可能ですので，使用する言語は自分の好みに応じて選択しましょう。
 
 ## 録画イベントをログに記録するスクリプト
-今回は，例として録画ボタンが押された際にログにメッセージを表示するスクリプトを作成してみましょう。最初にPythonを使った例を紹介し，その後にLua版も紹介します。
+今回は，例として録画ボタンが押された際にログにメッセージを表示するスクリプトを作成してみましょう。
 
+録画のほかにもさまざまなイベントを取得することができます。詳細なイベントの一覧については，以下のリンクをご覧ください。<br>
+https://docs.obsproject.com/reference-frontend-api#obs-studio-frontend-api
+
+最初にPythonを使った例を紹介し，その後にLua版も紹介します。
 ### Pythonスクリプトの例
 以下は，OBSの録画が開始・停止されたときにメッセージをログに記録する簡単なPythonスクリプトです。
 
@@ -126,6 +130,7 @@ Pythonを使用する場合は，あらかじめPythonのインストールパ�
 - **自動化**: 録画が開始されたら，他の特定の設定（例：特定のシーンへの切り替え）を自動で行う
 - **ファイル管理**: 録画が終了すると，自動でファイル名を変更して整理する
 
+
 ## 参考
 
 https://qiita.com/natmark/items/66bf793253aa2d4b151d
@@ -137,3 +142,7 @@ https://docs.obsproject.com/scripting
 ▼ イベントが発生したときに呼び出されるコールバック関数
 
 https://docs.obsproject.com/reference-frontend-api#c.obs_frontend_add_event_callback
+
+▼ イベント一覧
+
+https://docs.obsproject.com/reference-frontend-api#c.obs_frontend_event
